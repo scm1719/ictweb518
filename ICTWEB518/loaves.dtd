@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT loaves (loaf+)>
+<!ELEMENT loaf type CDATA #REQUIRE>
+<!ELEMENT loaf (price, gif, description)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT gif (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

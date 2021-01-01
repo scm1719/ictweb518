@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="loaves.xsl"?>
+<!DOCTYPE loaves[ 
+
+<!ELEMENT loaves (loaf+)>
+<!ATTLIST loaf type CDATA "#REQUIRE">
+<!ELEMENT loaf (price, gif, description)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT gif (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+]>
+
+
+
+<loaves>
+	<loaf type="Sourgough White">
+		<price>$7.00</price>
+		<gif>https://media.giphy.com/media/AnvhfR8Kl4d3y/giphy.gif</gif>
+		<description>Our Standard Sourgough</description>
+	</loaf>
+	
+	<loaf type="Sourgough Rye">
+		<price>$8.00</price>
+		<gif>https://media.giphy.com/media/wxGyHq9mlnjeU/giphy.gif</gif>
+		<description>Sourdough created with 50% rye flour.</description>
+	</loaf>
+	
+	<loaf type="Sourgough Spelt">
+		<price>$9.00</price>
+		<gif>https://media.giphy.com/media/KDPAxqXAOVay7ubTCU/giphy.gif</gif>
+		<description>Sourdough including a mixture of yummy seeds</description>
+	</loaf>
+	
+	<loaf type="Sourgough Seeded">
+		<price>$9.50</price>
+		<gif>https://media.giphy.com/media/TesPF4HZYAcWj8NnBl/giphy.gif</gif>
+		<description>Sourdough including a mixture of yummy seeds.</description>
+	</loaf>
+
+</loaves>
